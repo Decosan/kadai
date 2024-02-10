@@ -1,0 +1,38 @@
+.contact_form table tr {
+  height: 7rem;
+}
+
+.contact_form table th {
+  width: 150px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.contact_form table td input {
+  width: 480px;
+}
+
+.contact_form table td textarea {
+  width: 480px;
+}
+
+.contact_form table tr:nth-child(3) input {
+  width: initial;
+}
+
+.button {
+  text-align: center;
+  size: 3rem;
+}
+
+.button button {
+  background-color: #008b8b;
+  color: #fff;
+  font-size: 3rem;
+  border-style: none;
+  padding: 10px;
+}
+
+.button button:hover {
+  opacity: 0.5;
+}

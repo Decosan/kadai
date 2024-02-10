@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./CSS/normalize.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/contact.css">
+  <title>株式会社DIVE</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header clearfix">
+      <a href="index.html">
+        <img src="./images/logo.png" class="logo_image">
+      </a>
+      <nav>
+        <ul class="top_menu clearfix">
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="business.html">事業内容</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="./images/contact.png" class="image_area">
+    <div class="wrapper clearfix">
+      <aside class="side_menu">
+        <nav>
+          <ul>
+            <li><a href="business.html">事業内容</a></li>
+            <li><a href="company.html">会社概要</a></li>
+            <li class="point"><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>  
+      </aside> 
+      <article class="contact_form">
+        <form action="" method="get">
+          <table>
+            <tr>
+              <th><label for="name">お名前</label></th>
+              <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+              <th><label for="email">メールアドレス</label></th>
+              <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+              <th>性別</th>
+              <td>
+                <input type="radio" id="men"><label for="men">男</label>
+                <input type="radio" id="women"><label for="women">女</label>
+              </td>
+            </tr>
+            <tr>
+              <th><label for="text">お問い合わせ内容</label></th>
+              <td><textarea id="text" name="text" rows="2"></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="button"><button>送信</button></td>
+            </tr>
+          </table>       
+        </form>
+      </article>  
+    </div> 
+    <footer class="footer">
+      <p>Copyright &copy 2018 DIVE INC ALL RIGHTS RESERVED</p>
+    </footer>
+  </div>
+</body>
+</html>
